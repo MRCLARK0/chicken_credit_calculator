@@ -35,7 +35,6 @@ def option1():
     clear()
 
     choice = chicken_objects[chicken_option]
-    # print(type(choice.name))
 
     while 1 > submission_amount or 10 < submission_amount:
         try:
