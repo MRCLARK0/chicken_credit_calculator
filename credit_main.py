@@ -35,6 +35,7 @@ def option1():
     clear()
 
     choice = chicken_objects[chicken_option]
+    # print(type(choice.name))
 
     while 1 > submission_amount or 10 < submission_amount:
         try:
@@ -51,7 +52,7 @@ def option1():
         weight = 0
         while 1 > weight:
             try:
-                weight = int(input(f"Enter weight of item {x+1}: "))
+                weight = int(input(f"Enter weight of {choice.name.upper()} {x+1}: "))
             except:
                 print("Must be a whole number...")
         weights.append(weight)
