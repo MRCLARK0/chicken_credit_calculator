@@ -1,6 +1,7 @@
 from chicken import *
 
 # Chicken Types
+# Params: (Name, Min Pieces Per Case, Min Weight Per Piece, Max Weight Per Piece)
 filet = Chicken("Filet",150,93,0)
 filet.average_weight_per_piece = 93
 

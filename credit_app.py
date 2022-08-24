@@ -56,8 +56,8 @@ def option1():
                 print("Must be a whole number...")
         weights.append(weight)
 
-        piece = int(math.ceil(choice.min_piece_per_case - (weights[x] / choice.average_weight_per_piece)))
-        pieces.append(piece)
+        piece = int(math.ceil(weights[x] / choice.average_weight_per_piece)) 
+        pieces.append(piece) 
 
     clear()
 
